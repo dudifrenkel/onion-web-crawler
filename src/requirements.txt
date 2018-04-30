@@ -1,0 +1,6 @@
+TinyDB
+Lxml
+Requests
+Arrow
+pysocks
+schedule
