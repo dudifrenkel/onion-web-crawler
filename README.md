@@ -17,17 +17,17 @@ Dockerfile to download and compile tor software for crawling onion websites usin
 
 # To run
 
-<code> docker run -it <onion-wc-ins> sh </code>
+<code> docker run -it \<IMAGE ID\> sh </code>
   
 # To run tor
 
-<code> docker run -it <onion-wc-ins> sh </code>
+<code> docker exec -it \<CONTAINER ID\> sh </code>  
   
 <code> cd && tor </code>
 
 # To run the crawler
 
-<code> docker run -it <onion-wc-ins> sh </code>
+<code> docker exec -it \<CONTAINER ID\> sh </code
 
 <code> python3 WebCrawler.py </code>
 
