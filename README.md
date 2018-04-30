@@ -27,7 +27,7 @@ Dockerfile to download and compile tor software for crawling onion websites usin
 
 # To run the crawler
 
-<code> docker exec -it \<CONTAINER ID\> sh </code
+<code> docker exec -it \<CONTAINER ID\> sh </code>
 
 <code> python3 WebCrawler.py </code>
 
